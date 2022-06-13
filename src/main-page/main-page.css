@@ -2,20 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 50%;
-  width: 50%;
-  pointer-events: none;
-}
-
-.App-secondary-logo {
-
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-secondary-logo {
     animation: App-secondary-logo-spin infinite 20s linear;
-    transform: scale(0.6);
   }
 }
 
@@ -30,6 +19,11 @@
 
 .App-link {
   color: #61dafb;
+}
+.App-secondary-logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 42px;
 }
 
 @keyframes App-secondary-logo-spin {

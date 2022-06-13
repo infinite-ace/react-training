@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Index from './main-page';
 import reportWebVitals from './tests/reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css' //Bootstrap is now available in the whole app.
 import Header from "./main-page/header"
 import './main-page/main-page.css'
+import TopHeaderLogo from "./main-page/topHeaderLogo";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <div className="App">
+      <TopHeaderLogo/>
       <Header />
   </div>
 );
